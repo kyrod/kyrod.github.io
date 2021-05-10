@@ -1,108 +1,76 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
-description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
-
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+title: Kyle Rodriguez
+subtitle: Software Engineer
+description: ""
+url: "https://kyrod.com" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
-    - text: Home
-      url: /
-    - text: About
-      url: /about
-    - text: Blog
-      url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
-    - text: Contact
-      url : /contact
-    - text: Styleguide
-      url: /styleguide
-    - text: Get Started
-      url: /get-started
+  - text: Home
+    url: /
+  - text: About
+    url: /about
+  - text: Contact
+    url: /contact
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll theme built for developers. You can edit this in _config.yml file
+author: Kyle Rodriguez
+author_bio: >-
+  Hey there! I'm Kyle!
+author_email: "kyle@kyrod.com"
+author_location: United States
+author_website_url: https://kyrod.com
+typewrite-text: Stand-up is hard.
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
-              visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
-              visibility: true
+  - company_name: Groundspeed Analytics
+    company_logo: groundspeed.png
+    company_url: https://groundspeed.com
+    designation: Software Engineer
+    description: >- 
+      Backend software engineer designing cloud-native systems which automate 
+      and simplify time-consuming operational processes. Maintains reliable continuous 
+      integration and deployment pipeline while developing comprehensive unit, integration, 
+      and load testing practices. Employs solid data model to ensure data is available 
+      for analysis, process optimization, and improvement of machine learning models.
+    visibility: true
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
-                visibility: true
+  - college_logo: umich.png
+    college_name: University of Michigan
+    college_url: https://umich.edu
+    college_degree: Economics, focus in Computer Science
+    description:
+    visibility: true
 
 # Projects
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
-                visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
-                visibility: true
+  - project_thumbnail: goldify.png
+    project_title: Goldify
+    project_description: >-
+      A Spotify API based React application which allows users to efficiently create 
+      the perfect personal Spotify playlist! This project maintains 100% test coverage, 
+      uses Material UI standards, and is built as a responsive application.
+
+    project_url: https://goldify.app
+    visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  sujaykundu777
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
-
-#for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
-
-# disqus_shortname: sujay-kundu
-hyvor_talk_website_id: 476
-
-# wakatime username (coding activity)
-wakatime_username: sujaykundu777
-
-# mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+github_username: kyrod
+linkedin_username: kyrod
 
 # formspree (contact form)
-formspree_email: johndoe@gmail.com
+formspree_email: unknown
 
 # syntax highlighter
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
-# Choose what to show ( can be true or false)
+# Choose what to show (can be true or false)
 show_author_work_experiences: true
 show_author_education_details: true
 show_author_project_details: true
@@ -130,18 +98,12 @@ paginate_path: "/blog/page/:num/"
 
 collections:
   products:
-    output: true
+    output: false
   authors:
-    output: true
+    output: false
 
 defaults:
-  -
-    scope:
-      path: "gallery"
-    values:
-      permalink: /:path/:basename:output_ext
-  -
-    scope:
+  - scope:
       path: ""
       type: authors
     values:
@@ -155,7 +117,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-menus
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.
