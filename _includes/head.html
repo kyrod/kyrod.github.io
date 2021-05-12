@@ -41,6 +41,16 @@
   <meta content="{{ tag }}" property="article:tag" />
   {% endfor %} {% endif %}
 
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CZK6H86P1F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-CZK6H86P1F');
+  </script>
+  
   <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@{{ site.share.twitter_username }}" />
@@ -113,7 +123,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
     integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
   </script>
-  
+
   <!-- LinkedIn Badge -->
   <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
