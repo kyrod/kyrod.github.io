@@ -62,6 +62,7 @@ author_project_details:
       perfect personal Spotify playlist! This project taught me first-hand how
       to design an app with user experience in mind, learning the ropes of React and
       working directly with users to create an enjoyable user experience.
+    project_url: https://goldify.app
     visibility: true
 
   - project_title: Morning Catch-Up
