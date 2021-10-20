@@ -17,7 +17,7 @@ urls:
 author_logo: profile.png
 author: Kyle Rodriguez
 author_bio: >-
-  Hey there, I'm Kyle! I'm a software engineer from SoCal, currently living in Ann Arbor, Michigan. From 
+  Hey there, I'm Kyle! I'm a software engineer from SoCal, currently living in New York City. From 
   reverse engineering (aka destroying, whoops) a GameCube controller at age 7, to building my first PC in
   high school, I've always been passionate about working with and understanding how to use technology to 
   its maximum potential. When I'm not working on a new project or "fixing" my electronics with a hammer,
@@ -30,15 +30,23 @@ typewrite-text: Thinking of something clever to put here...
 
 # Experiences
 author_work_experiences:
+  - company_name: Hinge
+    company_logo: hinge.png
+    company_url: https://hinge.co
+    designation: Backend Engineer (September 2021 - Present)
+    description: >- 
+      I'm currently a backend engineer on the Growth team, working on improving user retention
+      and engagement.
+    visibility: true
   - company_name: Groundspeed Analytics
     company_logo: groundspeed.png
     company_url: https://groundspeed.com
-    designation: Software Engineer (June 2019 - Present)
+    designation: Software Engineer (June 2019 - September 2021)
     description: >- 
-      I design and build cloud-native systems which automate 
-      and simplify time-consuming operational processes. I also work on maintaining reliable continuous
+      I designed and built cloud-native systems which automated 
+      and simplified time-consuming operational processes. I also worked on maintaining reliable continuous
       integration and deployment pipeline, while developing comprehensive unit, integration,
-      and load testing practices. Before moving into my engineering rols, I was a data analyst
+      and load testing practices. Before moving into engineering, I was a data analyst
       working with the machine learning team to develop highly-accurate QA automations.
     visibility: true
 
@@ -62,7 +70,7 @@ author_project_details:
       perfect personal Spotify playlist! This project taught me first-hand how
       to design an app with user experience in mind, learning the ropes of React and
       working directly with users to create an enjoyable user experience.
-    project_url: https://goldify.app
+    project_url: https://github.com/Goldify/Goldify
     visibility: true
 
   - project_title: Morning Catch-Up
